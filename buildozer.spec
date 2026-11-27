@@ -19,8 +19,11 @@ services = reminder:service.py:foreground
 android.permissions = POST_NOTIFICATIONS,FOREGROUND_SERVICE,WAKE_LOCK
 android.api = 33
 android.minapi = 24
+android.ndk = 25b
 android.archs = arm64-v8a
 android.accept_sdk_license = True
+
+p4a.branch = v2024.01.21
 
 [buildozer]
 log_level = 2
